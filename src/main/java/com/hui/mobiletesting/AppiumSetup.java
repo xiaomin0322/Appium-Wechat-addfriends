@@ -43,7 +43,7 @@ public class AppiumSetup {
 		op.setExperimentalOption("androidProcess", "com.tencent.mm:tools");
 		capabilities.setCapability(ChromeOptions.CAPABILITY, op);
 
-		WebDriver driver = new AndroidDriver(new URL(URL), capabilities);
+		AndroidDriver<?> driver = new AndroidDriver(new URL(URL), capabilities);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}
