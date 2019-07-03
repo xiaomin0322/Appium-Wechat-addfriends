@@ -133,7 +133,7 @@ public class Wechat {
 
 	public static void main(String[] args) throws Exception {
 		WebDriver mydriver;
-		AppiumSetup myappium = new AppiumSetup("4.4.2", null);
+		AppiumSetup myappium = new AppiumSetup("9", "cd626ae6");
 		System.out.println(myappium.udid);
 		mydriver = myappium.getConnectFactory();
 		Wechat wt = new Wechat("xxxxx", "xxxxxxxxxx", mydriver);  //你的账号和密码
