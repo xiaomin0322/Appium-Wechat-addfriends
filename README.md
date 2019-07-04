@@ -8,7 +8,7 @@
 ================軟件安裝============
 jdk
 nodejs
-安卓sdk(下载对应的安卓版本sdk)
+安卓sdk(下载对应的安卓版本sdk)(只需下载：Tools:android sdk tool,android sdk platform-tools,android9:sdk platform-tools)
 appium-desktop
 手機配置：开开usb，开发模式，充电不锁屏。允许usb安装程序
 元素定位：(Appium1-Inspector)
