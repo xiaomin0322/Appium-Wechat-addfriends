@@ -137,7 +137,7 @@ public class Wechat {
 		System.out.println(myappium.udid);
 		mydriver = myappium.getConnectFactory();
 		Wechat wt = new Wechat("xxxxx", "xxxxxxxxxx", mydriver);  //你的账号和密码
-		wt.getWechatLogin();
+		//wt.getWechatLogin();
 		wt.setContact("1034002766");
 		wt.setMessage("hello");
 		wt.process();
