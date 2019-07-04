@@ -140,7 +140,10 @@ public class Wechat {
 		//wt.getWechatLogin();
 		wt.setContact("1034002766");
 		wt.setMessage("hello");
-		wt.process();
+		//wt.process();
+		
+		String pageSource = mydriver.getPageSource();
+		System.out.println(pageSource);
 
 	}
 

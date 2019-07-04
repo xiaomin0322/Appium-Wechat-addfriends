@@ -9,5 +9,10 @@
 jdk
 nodejs
 安卓sdk
-appnium-deck
+appium-desktop
 配置手机usb开发模式，充电不锁屏。允许usb安装程序
+
+参考连接：
+https://my.oschina.net/xiaominmin/blog/3068895
+https://my.oschina.net/xiaominmin/blog/3068892
+https://my.oschina.net/xiaominmin/blog/3069394
